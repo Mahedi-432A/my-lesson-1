@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trying Basic CSS</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .H4{
+            margin-top: 20px;
+        }
+        li {
+            margin-left: 50px;
+            color: darkolivegreen;
+        }
+        .external{
+            color: teal;
+        }
+        #selector{
+            color: aqua;
+            font-weight: lighter;
+            font-size: larger;
+        }
+        .box-1{
+            margin: 10px;
+            padding: 10px;
+            background-color: aquamarine;
+            color: darkgoldenrod;
+            width: 750px;
+            border: 1px solid black;
+            border-radius: 4px;
+        }
+        .box-1 p{
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h3>We are learning basic CSS</h3>
+    <p>CSS means Cascading style sheet</p>
+
+    <h4 class="H4">We can apply CSS in 3 ways :</h4>
+    <ol>
+        <li>inline</li>
+        <li>internal or embedded</li>
+        <li>external</li>
+    </ol>
+
+    <h4 class="H4" style="width: fit-content; color: aquamarine; background-color: darkslategray;">inline CSS is used in the line of html tags, that means we write css in the line where we write html language.</h4>
+
+    <h4 class="H4">Internal CSS</h4>
+    <p>Here we write CSS internally in the html file. We write style tag inside head and then we write all styles in the style tag. Here we need selector to apply style, for example:</p>
+    <ul>
+        <li>h1 p img etc, like any tags </li>
+        <li>id or class declared in a tag, then we call the id or tag and apply CSS</li>
+    </ul>
+
+    <h4 class="external H4">For external CSS we create a CSS file and use selector to apply CSS. Then we connect the CSS file to the html file.</h4>
+
+    <h4 id="selector" class="H4">Selectors</h4>
+    <p class="external">there are some type of selector. tags is used like a selector , ID and Class also used as selector</p>
+
+    <div class="box-1">
+        <h4>Now we are gonna talk about CSS box model</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis hic eveniet ex ipsam? Ducimus enim recusandae omnis ex, expedita non tempore temporibus amet, a velit corrupti nulla cupiditate maxime sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium exercitationem ex itaque eius tempore, ipsa tempora ratione est aspernatur deleniti, ut sequi, necessitatibus sapiente non alias aliquid ullam maiores! Ad.</p>
+        <small>CSS Box model</small>
+    </div>
+    <div class="box-1">
+        <h4>Now we are gonna talk about CSS box model</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis hic eveniet ex ipsam? Ducimus enim recusandae omnis ex, expedita non tempore temporibus amet, a velit corrupti nulla cupiditate maxime sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium exercitationem ex itaque eius tempore, ipsa tempora ratione est aspernatur deleniti, ut sequi, necessitatibus sapiente non alias aliquid ullam maiores! Ad.</p>
+        <small>CSS Box model</small>
+    </div>
+    <div class="box-1">
+        <h4>Now we are gonna talk about CSS box model</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis hic eveniet ex ipsam? Ducimus enim recusandae omnis ex, expedita non tempore temporibus amet, a velit corrupti nulla cupiditate maxime sequi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium exercitationem ex itaque eius tempore, ipsa tempora ratione est aspernatur deleniti, ut sequi, necessitatibus sapiente non alias aliquid ullam maiores! Ad.</p>
+        <small>CSS Box model</small>
+    </div>
+
+    <h4 class="H4">CSS box model and size depends on:</h4>
+    <ul>
+        <li>content</li>
+        <li>border</li>
+        <li>margin</li>
+        <li>padding</li>
+        <li>width and height</li>
+    </ul>
+
+</body>
+</html>
